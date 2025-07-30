@@ -5,11 +5,12 @@ import heroImage from '../assets/naruto.png'; // make sure to place a matching i
 const Home = () => {
   return (
     <>
+    {/* pt-55 sm:pt-24 lg:pt-10 xl:pt-10 */}
       <section
         id="home"
-        style={{ backgroundColor: '#264653' }}
-        className="bg-gradient-to-br from-blue-100 to-indigo-200 min-h-screen flex items-center justify-center text-black px-4"
+        className="pt-[13.75rem] sm:pt-[13.75rem] md:pt-10 lg:pt-10 xl:pt-10 bg-gradient-to-br from-blue-100 to-indigo-200 min-h-screen flex items-center justify-center text-black px-4"
       >
+
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Left Section */}
           <div className="md:w-1/2 space-y-6 text-center md:text-left">
