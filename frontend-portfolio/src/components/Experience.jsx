@@ -7,14 +7,14 @@ const experiences = [
     duration: 'july 2025 - Aug 2025',
     description: 'Developed a full-stack Railway Tools Management System using the MERN stack. Implemented secure login, department-based tool tracking, and CRUD operations for tool inventory. Designed responsive UI with Tailwind CSS.',
     tech: 'React.js, Node.js, Express.js, MongoDB, Tailwind CSS'
-  },
-  {
-    title: 'Web Development Intern',
-    company: 'Tech Startup',
-    duration: 'June 2023 - Aug 2023',
-    description: 'Built responsive React components and integrated REST APIs.',
-    tech: 'React, Tailwind, Node.js, MongoDB'
   }
+  // {
+  //   title: 'Web Development Intern',
+  //   company: 'Tech Startup',
+  //   duration: 'June 2023 - Aug 2023',
+  //   description: 'Built responsive React components and integrated REST APIs.',
+  //   tech: 'React, Tailwind, Node.js, MongoDB'
+  // }
 ];
 
 const Experience = () => {
