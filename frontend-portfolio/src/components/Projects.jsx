@@ -5,7 +5,7 @@ const projects = [
     title: 'Malaria Tracker',
     description: 'A full-stack web application for monitoring and managing malaria cases across India. The system enables hospitals to report cases in real-time, providing a centralized dashboard for active cases, recoveries, and total cases — organized state-wise and district-wise.',
     tech: 'React, Node.js, Express.js, MongoDB',
-    link: 'https://github.com/Aman23Singh/Malaria_Tracter'
+    link: 'https://malariatracter.vercel.app/'
   },
   {
     title: 'ChatApp',
@@ -17,7 +17,7 @@ const projects = [
     title: 'Railway Tools Management System',
     description: 'A full-stack web application to efficiently manage railway maintenance tools department-wise. Staff can log in to add, update, or delete tool records, ensuring real-time visibility and accountability. The system improves maintenance workflows by reducing tool misplacement and enhancing operational efficiency.',
     tech: 'React, Node.js, Express.js, MongoDB',
-    link: 'https://github.com/Aman23Singh/railway-tools-management'
+    link: 'https://railway-tools-management-fne7.vercel.app/'
   },
   {
     title: 'Weather App',
@@ -29,7 +29,7 @@ const projects = [
     title: 'Portfolio Website',
     description: 'A modern personal website to showcase skills and projects.',
     tech: 'React, Tailwind CSS',
-    link: '#'
+    link: 'https://portfolio.theaman.me/'
   },
 
 ];

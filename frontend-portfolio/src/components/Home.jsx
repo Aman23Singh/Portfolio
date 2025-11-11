@@ -27,7 +27,7 @@ const Home = () => {
               <a href="https://www.linkedin.com/in/aman-singh-347871276/" target="_blank" rel="noreferrer" className="text-blue-400 hover:text-blue-300">
                 <FaLinkedin />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-blue-200">
+              <a href="https://leetcode.com/u/Amansingh2311/" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-blue-200">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
                   alt="LeetCode"
@@ -41,7 +41,7 @@ const Home = () => {
               <a href="rvst2311@gmail.com" target="_blank" rel="noreferrer" className="text-red-500 hover:text-red-400">
                 <FaGoogle />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-blue-200">
+              <a href="https://x.com/AmanSingh_2311" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-blue-200">
                 <FaTwitter />
               </a>
             </div>
