@@ -5,7 +5,7 @@ import heroImage from '../assets/naruto.png'; // make sure to place a matching i
 const Home = () => {
   return (
     <>
-    {/* pt-55 sm:pt-24 lg:pt-10 xl:pt-10 */}
+      {/* pt-55 sm:pt-24 lg:pt-10 xl:pt-10 */}
       <section
         id="home"
         className="pt-[13.75rem] sm:pt-[13.75rem] md:pt-10 lg:pt-10 xl:pt-10 bg-gradient-to-br from-blue-100 to-indigo-200 min-h-screen flex items-center justify-center text-black px-4"
@@ -51,14 +51,16 @@ const Home = () => {
               <a href="#" className="bg-purple-600 hover:bg-purple-700 text-white py-2 px-6 rounded-full">
                 CONTACT ME
               </a>
+
               <a
-                href="https://drive.google.com/file/d/1Fe922-SddYGLX0mTzn-KQ0CAmojdpRxX/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/AmanResume.pdf"
+                download="Aman-Singh-Resume.pdf"
                 className="bg-gray-100 text-gray-900 hover:bg-gray-200 py-2 px-6 rounded-full"
               >
                 SEE MY RESUME
               </a>
+
+
 
             </div>
           </div>

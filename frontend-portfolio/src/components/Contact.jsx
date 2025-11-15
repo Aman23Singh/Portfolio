@@ -1,61 +1,71 @@
-// import React from 'react';
-// import { FaEnvelope, FaPhone, FaLinkedin, FaInstagram, FaXTwitter } from 'react-icons/fa6';
+import React from 'react';
+import { FaEnvelope, FaPhoneAlt, FaLinkedin, FaGithub } from 'react-icons/fa';
 
-// const Contact = () => {
-//   return (
-//     <section id="contact" className="py-20 bg-gradient-to-r from-gray-900 to-gray-800 text-white">
-//       <div className="max-w-4xl mx-auto px-4 text-center">
-//         <h2 className="text-4xl font-bold mb-10 text-white">📬 Contact Me</h2>
+const Contact = () => {
+  return (
+    <section
+      id="contact"
+      className="py-16 px-8 text-black bg-gradient-to-br from-blue-100 to-indigo-200"
+    >
+      <div className="max-w-4xl mx-auto text-center">
+        <h2 className="text-3xl font-bold mb-6">Contact Me</h2>
+        <p className="text-lg mb-10">
+          I'm always open to new opportunities — let’s connect!
+        </p>
 
-//         <div className="space-y-6">
-//           {/* Email */}
-//           <div className="flex justify-center items-center gap-3 text-lg">
-//             <FaEnvelope className="text-2xl text-blue-400 animate-pulse" />
-//             <span className="hover:text-blue-400 transition duration-300">amansingh23112003@gmail.com</span>
-//           </div>
+        {/* Contact Cards */}
+        <div className="grid md:grid-cols-2 gap-6">
+          
+          <div className="p-6 border rounded-lg shadow-lg border-gray-700 bg-gradient-to-br from-purple-100 to-indigo-200">
+            <FaEnvelope className="text-3xl mb-3 mx-auto text-blue-600" />
+            <p className="font-semibold">Email</p>
+            <a
+              href="mailto:rvst2311@gmail.com"
+              className="text-blue-600 hover:underline"
+            >
+              rvst2311@gmail.com
+            </a>
+          </div>
 
-//           {/* Phone */}
-//           <div className="flex justify-center items-center gap-3 text-lg">
-//             <FaPhone className="text-2xl text-green-400 animate-bounce" />
-//             <span className="hover:text-green-400 transition duration-300">+91 9876543210</span>
-//           </div>
+          <div className="p-6 border rounded-lg shadow-lg border-gray-700 bg-gradient-to-br from-purple-100 to-indigo-200">
+            <FaPhoneAlt className="text-3xl mb-3 mx-auto text-blue-600" />
+            <p className="font-semibold">Phone</p>
+            <a href="tel:+918400336370" className="text-blue-600 hover:underline">
+              +91 8400336370
+            </a>
+          </div>
 
-//           {/* Social Links */}
-//           <div className="flex justify-center items-center gap-8 mt-8 flex-wrap">
-//             <a
-//               href="https://linkedin.com/in/your-profile"
-//               target="_blank"
-//               rel="noreferrer"
-//               className="flex items-center gap-2 text-blue-500 hover:text-white hover:scale-110 transition transform duration-300"
-//             >
-//               <FaLinkedin className="text-2xl" />
-//               <span className="text-lg">LinkedIn</span>
-//             </a>
+          <div className="p-6 border rounded-lg shadow-lg border-gray-700 bg-gradient-to-br from-purple-100 to-indigo-200">
+            <FaLinkedin className="text-3xl mb-3 mx-auto text-blue-600" />
+            <p className="font-semibold">LinkedIn</p>
+            <a
+              href="https://www.linkedin.com/in/aman-singh-347871276/" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              linkedin.com/in/aman23singh
+            </a>
+          </div>
 
-//             <a
-//               href="https://x.com/your-profile"
-//               target="_blank"
-//               rel="noreferrer"
-//               className="flex items-center gap-2 text-white hover:text-gray-300 hover:scale-110 transition transform duration-300"
-//             >
-//               <FaXTwitter className="text-2xl" />
-//               <span className="text-lg">X</span>
-//             </a>
+          <div className="p-6 border rounded-lg shadow-lg border-gray-700 bg-gradient-to-br from-purple-100 to-indigo-200">
+            <FaGithub className="text-3xl mb-3 mx-auto text-blue-600" />
+            <p className="font-semibold">GitHub</p>
+            <a
+              href="https://github.com/Aman23Singh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              github.com/Aman23Singh
+            </a>
+          </div>
 
-//             <a
-//               href="https://instagram.com/your-profile"
-//               target="_blank"
-//               rel="noreferrer"
-//               className="flex items-center gap-2 text-pink-500 hover:text-pink-300 hover:scale-110 transition transform duration-300"
-//             >
-//               <FaInstagram className="text-2xl" />
-//               <span className="text-lg">Instagram</span>
-//             </a>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
+        </div>
 
-// export default Contact;
+      </div>
+    </section>
+  );
+};
+
+export default Contact;

@@ -1,6 +1,23 @@
 import React from 'react';
-import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
-import { SiMongodb, SiRedux, SiChakraui, SiNpm, SiMongoose } from 'react-icons/si';
+import {
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaReact,
+  FaNodeJs,
+  FaGithub,
+  FaDatabase,
+  FaJava,
+} from 'react-icons/fa';
+import {
+  SiMongodb,
+  SiRedux,
+  SiChakraui,
+  SiNpm,
+  SiMongoose,
+  SiPostgresql,
+  SiHibernate,
+} from 'react-icons/si';
 
 const skills = [
   { name: 'HTML', icon: <FaHtml5 /> },
@@ -18,7 +35,7 @@ const skills = [
         alt="Express.js"
         className="w-6 h-6 object-contain"
       />
-    )
+    ),
   },
 
   { name: 'MongoDB', icon: <SiMongodb /> },
@@ -31,7 +48,41 @@ const skills = [
         alt="Java"
         className="w-6 h-6 object-contain"
       />
-    )
+    ),
+  },
+  {
+    name: 'JDBC',
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+        alt="JDBC"
+        className="w-6 h-6"
+      />
+    ),
+  },
+  {
+    name: 'JSP',
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+        alt="JSP"
+        className="w-6 h-6"
+      />
+    ),
+  },
+  {
+    name: 'Servlet',
+    icon: (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+        alt="Servlet"
+        className="w-6 h-6"
+      />
+    ),
+  },
+  {
+    name: 'Hibernate',
+    icon: <SiHibernate />,
   },
   {
     name: 'Spring Boot',
@@ -41,7 +92,11 @@ const skills = [
         alt="Spring Boot"
         className="w-6 h-6 object-contain"
       />
-    )
+    ),
+  },
+  {
+    name: 'PostgreSQL',
+    icon: <SiPostgresql />,
   },
   {
     name: 'MySQL',
@@ -51,7 +106,7 @@ const skills = [
         alt="MySQL"
         className="w-6 h-6 object-contain"
       />
-    )
+    ),
   },
   {
     name: 'Python',
@@ -61,7 +116,7 @@ const skills = [
         alt="Python"
         className="w-6 h-6"
       />
-    )
+    ),
   },
 
   { name: 'GitHub', icon: <FaGithub /> },
@@ -69,13 +124,21 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-16 text-black bg-gradient-to-br from-blue-100 to-indigo-200">
+    <section
+      id="skills"
+      className="py-16 text-black bg-gradient-to-br from-blue-100 to-indigo-200"
+    >
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-3xl font-semibold text-center mb-10">Skills</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center ">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center">
           {skills.map((skill, index) => (
-            <div key={index} className="p-4 bg-gradient-to-br from-purple-100 to-indigo-200 rounded shadow hover:shadow-lg transition">
-              <div className="text-4xl text-green-400 mb-2">{skill.icon}</div>
+            <div
+              key={index}
+              className="p-4 bg-gradient-to-br from-purple-100 to-indigo-200 rounded shadow hover:shadow-lg transition"
+            >
+              <div className="text-4xl text-green-400 mb-2 flex justify-center items-center">
+                {skill.icon}
+              </div>
               <p className="text-sm font-medium">{skill.name}</p>
             </div>
           ))}

@@ -35,7 +35,13 @@ const Footer = () => {
                         </li>
 
                         <li className="flex items-center gap-2">▶
-                            <a href="https://drive.google.com/file/d/1Fe922-SddYGLX0mTzn-KQ0CAmojdpRxX/view?usp=sharing" target='blank'>Resume</a>
+                            <a
+                                href="/AmanResume.pdf"
+                                download="Aman-Singh-Resume.pdf"
+                                // className="text-gray-700 hover:text-blue-600 font-medium px-3 py-2"
+                            >
+                                Resume
+                            </a>
                         </li>
                     </ul>
                 </div>

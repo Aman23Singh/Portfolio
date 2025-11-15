@@ -18,13 +18,13 @@ const Navbar = () => {
             <a href="#experience" className="text-gray-700 hover:text-blue-600 font-medium px-3 py-2">Experience</a>
             <a href="#projects" className="text-gray-700 hover:text-blue-600 font-medium px-3 py-2">Projects</a>
             <a
-              href="https://drive.google.com/file/d/1Fe922-SddYGLX0mTzn-KQ0CAmojdpRxX/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/AmanResume.pdf"
+              download="Aman-Singh-Resume.pdf"
               className="text-gray-700 hover:text-blue-600 font-medium px-3 py-2"
             >
               Resume
             </a>
+
             <a href="#contact" className="text-gray-700 hover:text-blue-600 font-medium px-3 py-2">Contact</a>
           </div>
         </div>
